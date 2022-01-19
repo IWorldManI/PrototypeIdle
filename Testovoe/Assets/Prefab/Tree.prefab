@@ -46,7 +46,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inList: 0
-  log: {fileID: 1682064019331358397, guid: 445dfed93cfc1954d925581c11bb9d85, type: 3}
 --- !u!95 &2120930853773623728
 Animator:
   serializedVersion: 3
