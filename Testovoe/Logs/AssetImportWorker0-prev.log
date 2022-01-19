@@ -15,11 +15,11 @@ C:/Users/mmari/Documents/GitHub/PrototypeIdle/PrototypeIdle/Testovoe
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51557
+51602
 Successfully changed project path to: C:/Users/mmari/Documents/GitHub/PrototypeIdle/PrototypeIdle/Testovoe
 C:/Users/mmari/Documents/GitHub/PrototypeIdle/PrototypeIdle/Testovoe
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001409 seconds.
+Registered in 0.001434 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.684 seconds
+- Completed reload, in  1.658 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1684ms)
+	ReloadAssembly (1658ms)
 		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (349ms)
+		EndReloadAssembly (337ms)
 			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (137ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (130ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (61ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (60ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,35 +75,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002492 seconds.
+Registered in 0.002513 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
+- Completed reload, in  0.757 seconds
 Domain Reload Profiling:
-	ReloadAssembly (755ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (758ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (597ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (151ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (153ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.6 MB.
 System memory in use after: 69.7 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1944.
-Total: 2.319100 ms (FindLiveObjects: 0.112700 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.121500 ms  DeleteObjects: 0.043700 ms)
+Total: 2.137700 ms (FindLiveObjects: 0.116800 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.934900 ms  DeleteObjects: 0.048000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,1481 +134,275 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(41ca9881e3b033e4f973f1da629e972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(41ca9881e3b033e4f973f1da629e972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5c4b3e8676cf30c1f8159ed965abb0') in 0.002671 seconds 
-  Import took 0.004271 seconds .
+  path: Assets/Farm Life/Content/Skybox/Skybox 8k_landscape.jpg
+  artifactKey: Guid(db53bf8d31a696a41b7e8113e1756024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Skybox/Skybox 8k_landscape.jpg using Guid(db53bf8d31a696a41b7e8113e1756024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca32c3db32a29bf7fcd1b67aca27ee0') in 1.361170 seconds 
+  Import took 1.379240 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bddbeb1b91fa1983a5c10b8f09410f') in 0.006900 seconds 
-  Import took 0.008440 seconds .
+  Time since last request: 0.000172 seconds.
+  path: Assets/Farm Life/Content/Skybox
+  artifactKey: Guid(fe77b4aaa4e1c444c89962c6ed2a2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Skybox using Guid(fe77b4aaa4e1c444c89962c6ed2a2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5f6356be1323f31e468df07fe6dba0') in 0.000941 seconds 
+  Import took 0.002672 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.050449 seconds.
-  path: Assets/CivilCharactersPack
-  artifactKey: Guid(650d49a079c7dbd4aafa846a0fe0f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CivilCharactersPack using Guid(650d49a079c7dbd4aafa846a0fe0f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68349490d30038fafc3a93f51716305') in 0.001442 seconds 
-  Import took 0.003491 seconds .
+  Time since last request: 0.000134 seconds.
+  path: Assets/Farm Life/Content/Skybox/SphereInverted.FBX
+  artifactKey: Guid(d6ad1ef98d9cb6e4b97fec74eb3dd093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Skybox/SphereInverted.FBX using Guid(d6ad1ef98d9cb6e4b97fec74eb3dd093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fc03ae87e6a6a1e2f056f80fc46802') in 0.047459 seconds 
+  Import took 0.049403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.221178 seconds.
-  path: Assets/Farm Life
-  artifactKey: Guid(fd32fdcf886e63941b6083378728ed0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life using Guid(fd32fdcf886e63941b6083378728ed0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154bf952ca3ebe7642af73dbece60865') in 0.001273 seconds 
-  Import took 0.003127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.498608 seconds.
-  path: Assets/Farm Life/Content
-  artifactKey: Guid(c1a9c335887df3f4e9c8acf205e94cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content using Guid(c1a9c335887df3f4e9c8acf205e94cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584f71c07fd7cb891bb516621db8263f') in 0.001338 seconds 
-  Import took 0.003642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.063416 seconds.
-  path: Assets/Farm Life/Content/Prefabs
-  artifactKey: Guid(0c89bf86b22007d458d4f36546fd024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs using Guid(0c89bf86b22007d458d4f36546fd024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d7c22033b97bc77f1d9e53d3074423') in 0.001320 seconds 
-  Import took 0.003118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.710102 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Bird_House.fbx
-  artifactKey: Guid(e72a97321912de94b992fbf310c14b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Bird_House.fbx using Guid(e72a97321912de94b992fbf310c14b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb837d4f35a50048d9cf3be0260a7600') in 0.093150 seconds 
-  Import took 0.095338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_8_Roof_Darker.mat
-  artifactKey: Guid(639108ad648a10d49b4a0241da957213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_8_Roof_Darker.mat using Guid(639108ad648a10d49b4a0241da957213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec08a6adb8b328197ea2656f2e150042') in 0.019725 seconds 
-  Import took 0.021636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Bird_House.prefab
-  artifactKey: Guid(c1dabae3cdd3c3f46a4d80befc66ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Bird_House.prefab using Guid(c1dabae3cdd3c3f46a4d80befc66ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a30ea0875d47cafd281cd83caac50a') in 0.010438 seconds 
-  Import took 0.012314 seconds .
+  Time since last request: 0.000127 seconds.
+  path: Assets/Farm Life/Animation/CameraAnimation.playable
+  artifactKey: Guid(627481eebadc2244da27c71b4ccb677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Animation/CameraAnimation.playable using Guid(627481eebadc2244da27c71b4ccb677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ead89cc20b9b71e7c0d1a127cd323fb') in 0.086879 seconds 
+  Import took 0.090694 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000142 seconds.
-  path: Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_6_Color.mat
-  artifactKey: Guid(77bb3930339419244bf251ceee57981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_6_Color.mat using Guid(77bb3930339419244bf251ceee57981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabf7f5f4b20402548afc7fe903e253e') in 0.006235 seconds 
-  Import took 0.008062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_8_Roof1.mat
-  artifactKey: Guid(817729f20634b5e4d9b7f865b0238948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_8_Roof1.mat using Guid(817729f20634b5e4d9b7f865b0238948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2c2ad00305aba032c965fe2ee3fd70') in 0.006209 seconds 
-  Import took 0.008001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Roof.mat
-  artifactKey: Guid(487f4b3074719b34ba7bdef50adc0ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Roof.mat using Guid(487f4b3074719b34ba7bdef50adc0ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d18a3e3bb3588b3c10fbd8145879127') in 0.005415 seconds 
-  Import took 0.007211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Farm Life/Content/Meshes/Props/Materials/CHouse_8_Roof.mat
-  artifactKey: Guid(76d4a2c126f935a4f97699ca65fa328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Props/Materials/CHouse_8_Roof.mat using Guid(76d4a2c126f935a4f97699ca65fa328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e42c995069dd03fdf20f5940a4a728e') in 0.005772 seconds 
-  Import took 0.007556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House (2).prefab
-  artifactKey: Guid(f3fdfdf059c1e9340891dae6d5cf51d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House (2).prefab using Guid(f3fdfdf059c1e9340891dae6d5cf51d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0d0c3919cea09cacfd21abb0390d34') in 0.006439 seconds 
-  Import took 0.008372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Walls.mat
-  artifactKey: Guid(1c0c48e80a2f500428479035e9588cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Walls.mat using Guid(1c0c48e80a2f500428479035e9588cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac361c40ee17edeb7429a5c3eddd41a') in 0.012342 seconds 
-  Import took 0.014251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Foundation.mat
-  artifactKey: Guid(aafe367a8a897b24b81dae405e99d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Foundation.mat using Guid(aafe367a8a897b24b81dae405e99d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11be5a287b8a4b08a92bfd7f6ed05e89') in 0.008986 seconds 
-  Import took 0.010796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Dog_House.fbx
-  artifactKey: Guid(fe9ffc48b5b8f5b418b5a00dd43b69c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Dog_House.fbx using Guid(fe9ffc48b5b8f5b418b5a00dd43b69c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b835b9513d4ff8ac42c3eb27f72c88') in 0.016671 seconds 
-  Import took 0.018521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Color.mat
-  artifactKey: Guid(083b251e3aef15e4891495fe1445322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Color.mat using Guid(083b251e3aef15e4891495fe1445322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d8488a4d8ce2521c1ff7f8c666871f') in 0.005833 seconds 
-  Import took 0.007875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/GreenHouse.fbx
-  artifactKey: Guid(faea0eca6f182fe4d97f8c15ae7e619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/GreenHouse.fbx using Guid(faea0eca6f182fe4d97f8c15ae7e619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c86ed2be357b6cf14131e75b6db667') in 0.013233 seconds 
-  Import took 0.015261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House (1).prefab
-  artifactKey: Guid(57ebf22466d692143a0035cf89d7044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House (1).prefab using Guid(57ebf22466d692143a0035cf89d7044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ec5deabffc510f8731ddaec7cd3616') in 0.008987 seconds 
-  Import took 0.010826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_8_Roof2.mat
-  artifactKey: Guid(1a6a52e6a352715448e70d930c980ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_8_Roof2.mat using Guid(1a6a52e6a352715448e70d930c980ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c88dad82be001bf7a1f178b5900c983') in 0.005389 seconds 
-  Import took 0.007124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_6_Color.mat
-  artifactKey: Guid(13f2ab09afe3edb4f91ae63ec8b235b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_6_Color.mat using Guid(13f2ab09afe3edb4f91ae63ec8b235b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf87db08813142a5b072e4a52e6f6eb') in 0.009534 seconds 
-  Import took 0.011370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Meshes/Characters/Static/Materials/CHouse_8_Roof.mat
-  artifactKey: Guid(a367dceeea670df46887f75082fd6f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Characters/Static/Materials/CHouse_8_Roof.mat using Guid(a367dceeea670df46887f75082fd6f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92dac04c09c36d73d2dd393d853df42') in 0.008908 seconds 
-  Import took 0.010688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Color_Lighter.mat
-  artifactKey: Guid(d889635169c13924a89a37c06820e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Color_Lighter.mat using Guid(d889635169c13924a89a37c06820e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a85039811adf7592c178e009f3628') in 0.005542 seconds 
-  Import took 0.007242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_8_Roof.mat
-  artifactKey: Guid(74349c8a183d8c3418f64dfd1e178ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_8_Roof.mat using Guid(74349c8a183d8c3418f64dfd1e178ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4b5efaa757f1f7a6eb4ecf9b9dbd08') in 0.013801 seconds 
-  Import took 0.015742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Walls.mat
-  artifactKey: Guid(8a502d1651001294a8ccb1bc5eb90f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Walls.mat using Guid(8a502d1651001294a8ccb1bc5eb90f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759602e541655721b2da52fd413760ae') in 0.008313 seconds 
-  Import took 0.010067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_6_Color.mat
-  artifactKey: Guid(812869289ae0a4b4c8f77f1a7694128e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_6_Color.mat using Guid(812869289ae0a4b4c8f77f1a7694128e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3874b8b50a311cd7a676c8fb072edf') in 0.009322 seconds 
-  Import took 0.011079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_8_Roof_Darker.mat
-  artifactKey: Guid(a42275148283f8a49b24405edd4154f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_8_Roof_Darker.mat using Guid(a42275148283f8a49b24405edd4154f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baacc2e3494f1bc4d797dbaf6a7095bf') in 0.006956 seconds 
-  Import took 0.008838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House (2) 1.prefab
-  artifactKey: Guid(d5bbc40039a0bb74db459abdec0b61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House (2) 1.prefab using Guid(d5bbc40039a0bb74db459abdec0b61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538312460a5d27a916aa3f2bf739b0f7') in 0.007924 seconds 
-  Import took 0.009821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Color_Lighter.mat
-  artifactKey: Guid(74cbe4d47064db149b465c12a2e8cc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Color_Lighter.mat using Guid(74cbe4d47064db149b465c12a2e8cc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420d05b940bdf0d50952bd4988e113e0') in 0.008424 seconds 
-  Import took 0.010280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_8_Roof_Darker.mat
-  artifactKey: Guid(c76e6e251c432b5448cd1dcbade10ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Characters/Materials/CHouse_8_Roof_Darker.mat using Guid(c76e6e251c432b5448cd1dcbade10ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec8cdd0cc4900ef569d9336d27bc86d') in 0.008468 seconds 
-  Import took 0.010409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Bird_House (2).prefab
-  artifactKey: Guid(29153693ed293d847a60a7acc360081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Bird_House (2).prefab using Guid(29153693ed293d847a60a7acc360081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8495cdd5fae49fc792a003e6527efaf') in 0.007072 seconds 
-  Import took 0.008881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Roof.mat
-  artifactKey: Guid(017a1ef2c56c2884ab818ddc0140514a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Roof.mat using Guid(017a1ef2c56c2884ab818ddc0140514a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dd7c0060546436b215c74c14aefa91') in 0.007118 seconds 
-  Import took 0.008905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Bird_House (1).prefab
-  artifactKey: Guid(66cc1b23f6cbfea48a7fb27d560007b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Bird_House (1).prefab using Guid(66cc1b23f6cbfea48a7fb27d560007b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db198265d3b64742c5b7f71dda48d7d') in 0.006129 seconds 
-  Import took 0.008010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House.prefab
-  artifactKey: Guid(61e242d7658adac4fbf1577c286c3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Dog_House.prefab using Guid(61e242d7658adac4fbf1577c286c3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ca64c597dbae1cf3d7a3d0af2e5c9c') in 0.005856 seconds 
-  Import took 0.007656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_8_Roof.mat
-  artifactKey: Guid(0eee5bca8f1c8c94881cc28346d2c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_8_Roof.mat using Guid(0eee5bca8f1c8c94881cc28346d2c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6b16f00aed6ff96dff575038b70b07') in 0.004274 seconds 
-  Import took 0.005962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Roof_Brighter.mat
-  artifactKey: Guid(200eddcc3243f9048b2b912206de0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Roof_Brighter.mat using Guid(200eddcc3243f9048b2b912206de0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d3164a44108fa50b19e1af70064e62') in 0.004480 seconds 
-  Import took 0.006277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Foundation.mat
-  artifactKey: Guid(c84da4fa54998cf42bb8542e6837de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Buildings/Materials/CHouse_7_Foundation.mat using Guid(c84da4fa54998cf42bb8542e6837de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1d73ad5a724f459a7b2891f4224038') in 0.004400 seconds 
-  Import took 0.006102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Color.mat
-  artifactKey: Guid(e17d1f6658bdbfc4b92859edd7dae123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Color.mat using Guid(e17d1f6658bdbfc4b92859edd7dae123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b932ff22f54d4a21dc8291de484b1943') in 0.004350 seconds 
-  Import took 0.006073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Buildings/GreenHouse.prefab
-  artifactKey: Guid(64962a10af6be4b458415e006bf8d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Buildings/GreenHouse.prefab using Guid(64962a10af6be4b458415e006bf8d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ea994f1604d3d0d6b800353c30f12d') in 0.174180 seconds 
-  Import took 0.176005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Roof_Brighter.mat
-  artifactKey: Guid(f3d23aaad6029094695821d1aaacceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Meshes/Materials/MeshMaterials/CHouse_7_Roof_Brighter.mat using Guid(f3d23aaad6029094695821d1aaacceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c29da43e59100db2802c0a063ad831') in 0.004736 seconds 
-  Import took 0.006492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.832714 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks
-  artifactKey: Guid(137dbf904ed30034d92504b308e98c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks using Guid(137dbf904ed30034d92504b308e98c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ecfebdf3222c43a47acebeb61e1bef') in 0.000987 seconds 
-  Import took 0.003074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050699 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Bridge_H.prefab
-  artifactKey: Guid(90a0bb43fdcd8434d8ceaf4603e2cace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Bridge_H.prefab using Guid(90a0bb43fdcd8434d8ceaf4603e2cace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd548678e486f7d724146e0d04c1880') in 0.007693 seconds 
-  Import took 0.009730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_A.prefab
-  artifactKey: Guid(7becd0f67ccf1aa44947b05dba856420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_A.prefab using Guid(7becd0f67ccf1aa44947b05dba856420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0477cd65049a2f70a46c7bb53d769f') in 0.007365 seconds 
-  Import took 0.009300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_B.prefab
-  artifactKey: Guid(3eb6ffb175a8c934881ecde1d39b6be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_B.prefab using Guid(3eb6ffb175a8c934881ecde1d39b6be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6018de201c65d842c7d15f73b3515455') in 0.007956 seconds 
-  Import took 0.009901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_RB.prefab
-  artifactKey: Guid(11c54b60ec9aae84081e3dfbc822c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_RB.prefab using Guid(11c54b60ec9aae84081e3dfbc822c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03257c269505b9aabaed89bd31975939') in 0.015331 seconds 
-  Import took 0.017279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_U.prefab
-  artifactKey: Guid(85c6e4331751e3b438f6eaa943999473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_U.prefab using Guid(85c6e4331751e3b438f6eaa943999473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea5a3166346d1837432631480d62873') in 0.008819 seconds 
-  Import took 0.010717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_B.prefab
-  artifactKey: Guid(26f3c3d8912a7794893802be11159190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_B.prefab using Guid(26f3c3d8912a7794893802be11159190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb2de5b458dd5fe8d9048b96cc1fdbe') in 0.006416 seconds 
-  Import took 0.008361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_L.prefab
-  artifactKey: Guid(1193529b315b2bb46839b2486ba49aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_L.prefab using Guid(1193529b315b2bb46839b2486ba49aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb9bbd58d9c4b7d2828daa7c72c760a') in 0.008250 seconds 
-  Import took 0.010319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_R.prefab
-  artifactKey: Guid(264b6ae70fe27194895ef18ad5a680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_R.prefab using Guid(264b6ae70fe27194895ef18ad5a680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04007f628b3cde8a0e972af7bf016e7c') in 0.011756 seconds 
-  Import took 0.013591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_H.prefab
-  artifactKey: Guid(3853efd28f97e1a4fb2e3975e3923759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_H.prefab using Guid(3853efd28f97e1a4fb2e3975e3923759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2dbc519822291702f50f922da37abd') in 0.006713 seconds 
-  Import took 0.008559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Bridge_V.prefab
-  artifactKey: Guid(c330efb3a8a8a05428cbf25698b50f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Bridge_V.prefab using Guid(c330efb3a8a8a05428cbf25698b50f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6926b13f97853255cc43cf35b43caa') in 0.007770 seconds 
-  Import took 0.009647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_L.prefab
-  artifactKey: Guid(cbad958b4d4a71641b298c596e3ed6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_L.prefab using Guid(cbad958b4d4a71641b298c596e3ed6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46683d9eb6123498720a9d38412dc6d4') in 0.010951 seconds 
-  Import took 0.012848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_L.prefab
-  artifactKey: Guid(d75fa72df7fd66c4cb101f59e9283aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_L.prefab using Guid(d75fa72df7fd66c4cb101f59e9283aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151fe93649a57d0136c5c260053804c2') in 0.006537 seconds 
-  Import took 0.008409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_LB.prefab
-  artifactKey: Guid(00dbf95f633a6b648bdaaeb4383ae0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_LB.prefab using Guid(00dbf95f633a6b648bdaaeb4383ae0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfaa1c6e12b2b2f5701b7f79bf68af8') in 0.007048 seconds 
-  Import took 0.008890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_D.prefab
-  artifactKey: Guid(868a1419112c31d45b5b4da2a4613e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_D.prefab using Guid(868a1419112c31d45b5b4da2a4613e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85ac4aa41e212adceecc84fb1d2b59f') in 0.005403 seconds 
-  Import took 0.007218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_RU.prefab
-  artifactKey: Guid(63dd4632b08309a4bbb5d6972fc2ead5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_RU.prefab using Guid(63dd4632b08309a4bbb5d6972fc2ead5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef50d58ab8fd27304be06a941055ddfb') in 0.007694 seconds 
-  Import took 0.009581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_V.prefab
-  artifactKey: Guid(9abfff5f8ed5b39428fbca551ad13085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_V.prefab using Guid(9abfff5f8ed5b39428fbca551ad13085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953df33a9abedf0f121a2d3bda637240') in 0.005511 seconds 
-  Import took 0.007332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_U.prefab
-  artifactKey: Guid(19ab2b08ce33a744fa1dc858281aa3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Edge_U.prefab using Guid(19ab2b08ce33a744fa1dc858281aa3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf893c1bee26bf9ddd1b238bfc349a8') in 0.005563 seconds 
-  Import took 0.007401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads_L.prefab
-  artifactKey: Guid(3113bdaed098f3e48b92a6cb5d633ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads_L.prefab using Guid(3113bdaed098f3e48b92a6cb5d633ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfea3bce664a4e4e529b1f69b929243') in 0.005653 seconds 
-  Import took 0.007470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_RU.prefab
-  artifactKey: Guid(dafd872ff9e90014e8d01c70dd0b1227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_RU.prefab using Guid(dafd872ff9e90014e8d01c70dd0b1227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa088ee82118dd50e81a0f0193c59ad') in 0.006528 seconds 
-  Import took 0.008331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_LB.prefab
-  artifactKey: Guid(591338f91b9cb1a4bb56233bf98ce9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_LB.prefab using Guid(591338f91b9cb1a4bb56233bf98ce9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce45c903609033a2d729f22e4a4c502') in 0.005456 seconds 
-  Import took 0.007343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_LB.prefab
-  artifactKey: Guid(92f9e893c15245e40a28961524209819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_LB.prefab using Guid(92f9e893c15245e40a28961524209819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4948b63da71245f2c2c00bae8f90abcc') in 0.007123 seconds 
-  Import took 0.008971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_B.prefab
-  artifactKey: Guid(90005d6ea552d95428b66ae3cf9b75b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_B.prefab using Guid(90005d6ea552d95428b66ae3cf9b75b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad572215ba17717498fac497bdd563dc') in 0.005494 seconds 
-  Import took 0.007461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads_B.prefab
-  artifactKey: Guid(3d837adf6089ac845804120b66c4ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads_B.prefab using Guid(3d837adf6089ac845804120b66c4ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc8d48a76dc02dc33676cfaa8e589d0') in 0.005916 seconds 
-  Import took 0.007719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_C.prefab
-  artifactKey: Guid(0049ba0d2e6139b41b1e717eef600e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_C.prefab using Guid(0049ba0d2e6139b41b1e717eef600e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd104e242c28e18a6e21fc613dec313df') in 0.006542 seconds 
-  Import took 0.008447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_RB.prefab
-  artifactKey: Guid(697ce6cd7bcd9d34e8b30a1be20c5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_RB.prefab using Guid(697ce6cd7bcd9d34e8b30a1be20c5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b6323319483d2db9829612b947c2c0') in 0.007065 seconds 
-  Import took 0.008884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_R.prefab
-  artifactKey: Guid(5719210f2cfb7e548b24786d04fbcd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_R.prefab using Guid(5719210f2cfb7e548b24786d04fbcd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9cdbc7910e138224f4c27ca2ed32b4') in 0.005879 seconds 
-  Import took 0.007765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_R.prefab
-  artifactKey: Guid(d3058cd3322bf6043b6d5c35f3ac34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Entrance_R.prefab using Guid(d3058cd3322bf6043b6d5c35f3ac34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2a661e634d312987f01d88dd47777a') in 0.007872 seconds 
-  Import took 0.009695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_LU.prefab
-  artifactKey: Guid(0933eb3647331fa498bcd67dea0d2cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_Internal_LU.prefab using Guid(0933eb3647331fa498bcd67dea0d2cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac33fa4ff6cf5f4d26dc38957b4aa7e') in 0.005037 seconds 
-  Import took 0.006815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_U.prefab
-  artifactKey: Guid(fcff2f18ce3c12b43b8aaf9b40b14d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Ending_U.prefab using Guid(fcff2f18ce3c12b43b8aaf9b40b14d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e2bcb6bd778e254ea04f7ac6da5b62') in 0.004966 seconds 
-  Import took 0.006813 seconds .
+  path: Assets/Farm Life/Animation
+  artifactKey: Guid(351eabde10643224faa4729a4e497362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Animation using Guid(351eabde10643224faa4729a4e497362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033c82b166028802d9e7be5e48698eb8') in 0.000893 seconds 
+  Import took 0.002407 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000126 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_RU.prefab
-  artifactKey: Guid(4706164f82b82374e8774a2f45f4af07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_RU.prefab using Guid(4706164f82b82374e8774a2f45f4af07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb2f3816aba1cfe46c0326b761bb043') in 0.004853 seconds 
-  Import took 0.006680 seconds .
+  path: Assets/Farm Life/Content/Skybox/Skybox.mat
+  artifactKey: Guid(e9f1a62fef2f2814487ba5e54d0fdbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Skybox/Skybox.mat using Guid(e9f1a62fef2f2814487ba5e54d0fdbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2109395dd7911df4923aa59e2a9735') in 0.796352 seconds 
+  Import took 0.815956 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.7 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 2.145100 ms (FindLiveObjects: 0.112100 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.983800 ms  DeleteObjects: 0.011200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.304651 seconds.
+  path: Assets/CivilCharactersPack/Models
+  artifactKey: Guid(e966ca456d7f06d47908c089bc413966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CivilCharactersPack/Models using Guid(e966ca456d7f06d47908c089bc413966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b694a051115600a5f8417699f3b33439') in 0.002930 seconds 
+  Import took 0.004927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058602 seconds.
+  path: Assets/CivilCharactersPack/Models/Stend.fbx
+  artifactKey: Guid(767a800150d9ddb449b1aa9a7ab25f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CivilCharactersPack/Models/Stend.fbx using Guid(767a800150d9ddb449b1aa9a7ab25f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4b59acc4a4d21a01a63e5340fd4e77') in 0.062501 seconds 
+  Import took 0.064647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.283170 seconds.
+  path: Assets/CivilCharactersPack/Prefabs
+  artifactKey: Guid(4529df994fb3dd24585ad6adcdb4199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CivilCharactersPack/Prefabs using Guid(4529df994fb3dd24585ad6adcdb4199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b025d90db4fe1f9683dc129b7329aadb') in 0.001188 seconds 
+  Import took 0.003045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.795967 seconds.
+  path: Assets/Farm Life/Scenes
+  artifactKey: Guid(f51b515d94b46ff4397d6d7b49f53862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Scenes using Guid(f51b515d94b46ff4397d6d7b49f53862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990bb9815163420cfee0215852ef1cb6') in 0.001072 seconds 
+  Import took 0.002887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.420196 seconds.
+  path: Assets/Farm Life/Content/Meshes
+  artifactKey: Guid(1a8c882f6495a61459f6086954ed4ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Meshes using Guid(1a8c882f6495a61459f6086954ed4ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b96ac3880891c4539bd4d06434382a') in 0.001198 seconds 
+  Import took 0.003191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_LU.prefab
-  artifactKey: Guid(3d6455a9d39f6b545a816b425ec51201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Path_Turn_LU.prefab using Guid(3d6455a9d39f6b545a816b425ec51201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bc69360a5a28090aefa464c36e80da') in 0.004965 seconds 
-  Import took 0.006818 seconds .
+  Time since last request: 1.618925 seconds.
+  path: Assets/Farm Life/Content/Meshes/Animals
+  artifactKey: Guid(1084112edbccaff429e1239e40c03a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Meshes/Animals using Guid(1084112edbccaff429e1239e40c03a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c786428237afcb9881fb06ebbf6c7a') in 0.001139 seconds 
+  Import took 0.003155 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Grass_Base.prefab
-  artifactKey: Guid(f171a1b5cb002604da16c6c095af121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Grass_Base.prefab using Guid(f171a1b5cb002604da16c6c095af121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a960ca05fb7be556395ca3d40ee1e3') in 0.004664 seconds 
-  Import took 0.006447 seconds .
+  Time since last request: 2.906599 seconds.
+  path: Assets/Farm Life/Content/Meshes/Characters
+  artifactKey: Guid(213c01913d7b3f24bae33e6a2e26d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Meshes/Characters using Guid(213c01913d7b3f24bae33e6a2e26d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f658b577e2f73aedfa291d0db3034a9') in 0.001165 seconds 
+  Import took 0.003035 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads.prefab
-  artifactKey: Guid(8ac0954bcfa97434a8ccfb38a0934bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads.prefab using Guid(8ac0954bcfa97434a8ccfb38a0934bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a3125b57008c8998a92df69046fb06') in 0.004972 seconds 
-  Import took 0.006771 seconds .
+  Time since last request: 3.424234 seconds.
+  path: Assets/Farm Life/Content/Meshes/Vehicles & Machines
+  artifactKey: Guid(d4a7e93f49323fb4ea279b982ddce9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Meshes/Vehicles & Machines using Guid(d4a7e93f49323fb4ea279b982ddce9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5871c915679bd967c07edf0c74ae24f6') in 0.001067 seconds 
+  Import took 0.002900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads_R.prefab
-  artifactKey: Guid(f8c069270ad66574987c500116789a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Road_Crossroads_R.prefab using Guid(f8c069270ad66574987c500116789a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ddddf4e2a9dd4d01d40b5c8dad0405') in 0.004878 seconds 
-  Import took 0.006737 seconds .
+  Time since last request: 28.162671 seconds.
+  path: Assets/Farm Life/Content/Extras
+  artifactKey: Guid(df6d3479c700c104598d0b68f8dbd12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Extras using Guid(df6d3479c700c104598d0b68f8dbd12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a387a0964b5d1ff42233fc350542a13') in 0.001376 seconds 
+  Import took 0.003455 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_B.prefab
-  artifactKey: Guid(eed20a788c784984ca3bb50dc34753d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Base_B.prefab using Guid(eed20a788c784984ca3bb50dc34753d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96bccfe5553d6532191af7a34682a53') in 0.004859 seconds 
-  Import took 0.006634 seconds .
+  Time since last request: 0.048023 seconds.
+  path: Assets/Farm Life/Content/Extras/ColorGrading 1.asset
+  artifactKey: Guid(5706929939b94e649a984b0a33b215f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Extras/ColorGrading 1.asset using Guid(5706929939b94e649a984b0a33b215f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e47c82d679511031ab1e5fc7a4e146c') in 0.002733 seconds 
+  Import took 0.004982 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_RB.prefab
-  artifactKey: Guid(868f13ef2cfd34a4c9e5944ce0c490f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_RB.prefab using Guid(868f13ef2cfd34a4c9e5944ce0c490f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d4e1002d842f8bcc6674e02db644b3') in 0.005082 seconds 
-  Import took 0.006925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_LU.prefab
-  artifactKey: Guid(c85674855bee6e04b96ac50735f609c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Grounds & Chunks/Ground_Corner_External_LU.prefab using Guid(c85674855bee6e04b96ac50735f609c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0808643a9e701681fd7f1c662aacdb7f') in 0.004825 seconds 
-  Import took 0.006632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.296301 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants
-  artifactKey: Guid(21e23430198b90341a5caab9a27a558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants using Guid(21e23430198b90341a5caab9a27a558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e7e2f539b7b17e44fb9a54ff88ff73') in 0.001331 seconds 
-  Import took 0.003245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055909 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Flower (1) 1.prefab
-  artifactKey: Guid(d68d1a576237c164eae693aa8203ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Flower (1) 1.prefab using Guid(d68d1a576237c164eae693aa8203ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d6e6a3e20a1dac02a6083e8f164492') in 0.005545 seconds 
-  Import took 0.007511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Flower (1).prefab
-  artifactKey: Guid(95f15d784aafec6478390a085f1ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Flower (1).prefab using Guid(95f15d784aafec6478390a085f1ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64fab2e251d130a45bfde70c26056f7') in 0.004908 seconds 
-  Import took 0.006741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Grass_1.prefab
-  artifactKey: Guid(bd1969c84d44b9749b1069472f4bb9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Grass_1.prefab using Guid(bd1969c84d44b9749b1069472f4bb9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dc7e65a8f033c284338d14fa1b2069') in 0.005227 seconds 
-  Import took 0.007274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Grass_2.prefab
-  artifactKey: Guid(b9df0382737ca90449460496238647c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Grass_2.prefab using Guid(b9df0382737ca90449460496238647c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab65f406718d2bbb2c5812be1dc3c47') in 0.006547 seconds 
-  Import took 0.008643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Grass_4.prefab
-  artifactKey: Guid(419a11022f8e10f4881e7dfea3ba3c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Grass_4.prefab using Guid(419a11022f8e10f4881e7dfea3ba3c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266a60def30a446f264bbbd9aea92a0c') in 0.004850 seconds 
-  Import took 0.006939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Grass_2 (1).prefab
-  artifactKey: Guid(a9241cf6b418e854fb0ce9d6c188ee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Grass_2 (1).prefab using Guid(a9241cf6b418e854fb0ce9d6c188ee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c84ebaf321e8c2db698c26d3191c9e') in 0.005172 seconds 
-  Import took 0.006995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Flower.prefab
-  artifactKey: Guid(fd3b0a1387c8f4649830c6f86cf2bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Flower.prefab using Guid(fd3b0a1387c8f4649830c6f86cf2bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59914df7e55bb0d0effd57e593b59bce') in 0.005563 seconds 
-  Import took 0.007391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Grass_5.prefab
-  artifactKey: Guid(ba950d66b49f2f347a0608f4b4374e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Grass_5.prefab using Guid(ba950d66b49f2f347a0608f4b4374e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dcfc6e40a0268acf5282e650325082') in 0.004706 seconds 
-  Import took 0.006491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Grass_3.prefab
-  artifactKey: Guid(a5478309d4c8d804d8b9edeece0e944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Grass_3.prefab using Guid(a5478309d4c8d804d8b9edeece0e944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd82ef471513160b4c0a8afd32139a') in 0.004574 seconds 
-  Import took 0.006429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Grass_4 (1).prefab
-  artifactKey: Guid(8750b467071731e4b9c6e088a1fc6689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Grass_4 (1).prefab using Guid(8750b467071731e4b9c6e088a1fc6689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7ac03be04b323814a18eac5eb7c404') in 0.004753 seconds 
-  Import took 0.006538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Plants/Flower (1) 2.prefab
-  artifactKey: Guid(ecd8a7cad6a5fe04188dca087d811dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Plants/Flower (1) 2.prefab using Guid(ecd8a7cad6a5fe04188dca087d811dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c94f74cf3e488fa65fcc5ed55ca6a6') in 0.005088 seconds 
-  Import took 0.006929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.981071 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings
-  artifactKey: Guid(1a29396c42dcc95478ec3cdc620e7845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings using Guid(1a29396c42dcc95478ec3cdc620e7845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177902da959feb6d7f9a2face81676ca') in 0.001215 seconds 
-  Import took 0.003056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066110 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Feeder_1.prefab
-  artifactKey: Guid(087682fa5766db14a97e0abdd6cab1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Feeder_1.prefab using Guid(087682fa5766db14a97e0abdd6cab1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd956fecfd515dfb54b5a79e19d76ccd3') in 0.010563 seconds 
-  Import took 0.012813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Privy.prefab
-  artifactKey: Guid(25d9d810898fdcd42a63e22635808386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Privy.prefab using Guid(25d9d810898fdcd42a63e22635808386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7865047cde376fc4cc4873921992eeeb') in 0.006696 seconds 
-  Import took 0.008620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Well.prefab
-  artifactKey: Guid(e0a9deda767407f4c95d5055dfa4f4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Well.prefab using Guid(e0a9deda767407f4c95d5055dfa4f4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e47cf476df4359f03107644381b418') in 0.008751 seconds 
-  Import took 0.010604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Small Buildings/Privy (1).prefab
-  artifactKey: Guid(1bb43f0e7935ee0409d3aae85dbedc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Small Buildings/Privy (1).prefab using Guid(1bb43f0e7935ee0409d3aae85dbedc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1805a7d3bde444c75fccc6958f20319') in 0.012097 seconds 
-  Import took 0.013998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.056320 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes
-  artifactKey: Guid(aa702c9a69ae24147aa59fb8eb121a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes using Guid(aa702c9a69ae24147aa59fb8eb121a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9017db0837df72f8f5c52b9970eebcf6') in 0.002791 seconds 
-  Import took 0.005285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049807 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush1.prefab
-  artifactKey: Guid(3c05d0476f76c4a4690807687b361cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush1.prefab using Guid(3c05d0476f76c4a4690807687b361cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1058975a839277643ac4edf3566dc8e8') in 0.006038 seconds 
-  Import took 0.008097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low_WF 1.prefab
-  artifactKey: Guid(e0e962f8875559f4b95395fee1c47347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low_WF 1.prefab using Guid(e0e962f8875559f4b95395fee1c47347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f84a041b28aef04a2537931d7bd4044') in 0.006784 seconds 
-  Import took 0.008642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low (1) 1.prefab
-  artifactKey: Guid(3c3191b79d9ccea4b98812aeffb86b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low (1) 1.prefab using Guid(3c3191b79d9ccea4b98812aeffb86b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc14fb4171e045112f6782defa410e73') in 0.006778 seconds 
-  Import took 0.008630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low (1).prefab
-  artifactKey: Guid(df4ef0a6161a7c64d82102791f825665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low (1).prefab using Guid(df4ef0a6161a7c64d82102791f825665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9561f4257a53da30aeb658267292dee0') in 0.011256 seconds 
-  Import took 0.013374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low.prefab
-  artifactKey: Guid(652c5dbc6fd125e45b2f6e14fabead89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low.prefab using Guid(652c5dbc6fd125e45b2f6e14fabead89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed69131d22eb88dc57b26a4569fe076') in 0.011550 seconds 
-  Import took 0.013410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_Low.prefab
-  artifactKey: Guid(cfa042779554b344895f1c259b73eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_Low.prefab using Guid(cfa042779554b344895f1c259b73eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932f01edb069ab3ab9903fb61bf5abe4') in 0.007324 seconds 
-  Import took 0.009174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Low.prefab
-  artifactKey: Guid(4c6e425e8f08bae4696fe906e1959d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Low.prefab using Guid(4c6e425e8f08bae4696fe906e1959d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae2965879d1f65b0cf09682dbd288d3') in 0.007246 seconds 
-  Import took 0.009129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_Low.prefab
-  artifactKey: Guid(b9d20894da4fbd04a86aeeb0d76959ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_Low.prefab using Guid(b9d20894da4fbd04a86aeeb0d76959ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18c0aa4e63077d19d651c4baa8c3d61') in 0.005641 seconds 
-  Import took 0.007487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_6_Low.prefab
-  artifactKey: Guid(18a179115a3cb834bb2fbef608c642d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_6_Low.prefab using Guid(18a179115a3cb834bb2fbef608c642d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65f682848f492d3c785378fb6be25c5') in 0.008492 seconds 
-  Import took 0.010358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Medium 1.prefab
-  artifactKey: Guid(df778211bcb8d9448b07026fc2401a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Medium 1.prefab using Guid(df778211bcb8d9448b07026fc2401a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412daa6abba930441b823c034842538a') in 0.009142 seconds 
-  Import took 0.011008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_6_High.prefab
-  artifactKey: Guid(fdee4fc0d79fa364e8b5ceef83d20668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_6_High.prefab using Guid(fdee4fc0d79fa364e8b5ceef83d20668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6861e3e1d91ab51060f2ea2d637141') in 0.005948 seconds 
-  Import took 0.007869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush1_WF.prefab
-  artifactKey: Guid(479c4b2dd8385b24898ef1c85ea14a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush1_WF.prefab using Guid(479c4b2dd8385b24898ef1c85ea14a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83dffc0b26b5c798dfb4708efe2cf3f') in 0.007778 seconds 
-  Import took 0.009683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_High.prefab
-  artifactKey: Guid(4726eb01862a36c4e93c09c91b74787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_High.prefab using Guid(4726eb01862a36c4e93c09c91b74787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fcb1beb945cfbc5074e6a6b312955b') in 0.007590 seconds 
-  Import took 0.009461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_High.prefab
-  artifactKey: Guid(4db0ecae5b67c6342be24e0288e44d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_High.prefab using Guid(4db0ecae5b67c6342be24e0288e44d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84556713e838a3528ac5107be8b8572b') in 0.007333 seconds 
-  Import took 0.009154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Medium.prefab
-  artifactKey: Guid(34ab65de1cf0ba9479c769be4eb09341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Medium.prefab using Guid(34ab65de1cf0ba9479c769be4eb09341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4827f3c9ff7a70214f2b392b5e40e4e') in 0.005974 seconds 
-  Import took 0.007792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_4b.prefab
-  artifactKey: Guid(7a7df94194e82eb44be0d8369b350f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_4b.prefab using Guid(7a7df94194e82eb44be0d8369b350f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb0365194ffacdba94b271ad9961f4b') in 0.010451 seconds 
-  Import took 0.012262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_High_WF 1.prefab
-  artifactKey: Guid(59e230a1a0ed9504dabecd8f504045ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_High_WF 1.prefab using Guid(59e230a1a0ed9504dabecd8f504045ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2ab87390cefb285764a77fcdd8a9f9') in 0.007171 seconds 
-  Import took 0.009045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_Low.prefab
-  artifactKey: Guid(343eb71b207daa541a829eaa5f95fd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_Low.prefab using Guid(343eb71b207daa541a829eaa5f95fd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ad7009d4ad07d73f247183fb9c89e5') in 0.007007 seconds 
-  Import took 0.009132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_High_WF.prefab
-  artifactKey: Guid(5e5ef3fefb2bdc24d962bd91d19cc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_High_WF.prefab using Guid(5e5ef3fefb2bdc24d962bd91d19cc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd222b5e1f06718271c2489e4a3b3682') in 0.007299 seconds 
-  Import took 0.009285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_Medium.prefab
-  artifactKey: Guid(1cb0d16516e518246bfbe108d106bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_Medium.prefab using Guid(1cb0d16516e518246bfbe108d106bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c570db2dd7cfea78f1024141ce35ecd') in 0.006653 seconds 
-  Import took 0.008527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_6_Medium.prefab
-  artifactKey: Guid(0ff3dd842ba0bf147a452b8f3f576158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_6_Medium.prefab using Guid(0ff3dd842ba0bf147a452b8f3f576158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b006220db53b4d9637f6149135f366') in 0.005731 seconds 
-  Import took 0.007485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_4a.prefab
-  artifactKey: Guid(e0ddaceb55d6c5f458ddba0f67a2adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_4a.prefab using Guid(e0ddaceb55d6c5f458ddba0f67a2adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50bbf9b2d2d777595a72cee07eca104') in 0.005155 seconds 
-  Import took 0.007089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_High.prefab
-  artifactKey: Guid(b857cfbf8c3c34d42826476feecdd740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_High.prefab using Guid(b857cfbf8c3c34d42826476feecdd740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dac978c24c184a7d38ecd661f96aea0') in 0.005256 seconds 
-  Import took 0.007110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_Medium.prefab
-  artifactKey: Guid(1955bc6e6834b0440b5704cda015f419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_Medium.prefab using Guid(1955bc6e6834b0440b5704cda015f419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0ff9a2fa9539e1d7988554d94490b0') in 0.005028 seconds 
-  Import took 0.006753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Medium_WF.prefab
-  artifactKey: Guid(023ab819f39f3d74a8a5d3d186faaa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Medium_WF.prefab using Guid(023ab819f39f3d74a8a5d3d186faaa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda8434099274c4c1a06551c70299171') in 0.005428 seconds 
-  Import took 0.007377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush_2.prefab
-  artifactKey: Guid(584be619ece44b24cb49afaae4e4a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush_2.prefab using Guid(584be619ece44b24cb49afaae4e4a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820e64791427750c2a24362085bfefe8') in 0.004696 seconds 
-  Import took 0.006513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low 1.prefab
-  artifactKey: Guid(bcab17e358097b34d82b80c66b112f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low 1.prefab using Guid(bcab17e358097b34d82b80c66b112f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80ae78f7d0f4679502d81da1481c290') in 0.005119 seconds 
-  Import took 0.006893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_High.prefab
-  artifactKey: Guid(fbe84b2f2c0beef4e88d65b557dd5d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_High.prefab using Guid(fbe84b2f2c0beef4e88d65b557dd5d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68839e23b6662015e3816d7537837b13') in 0.004978 seconds 
-  Import took 0.006877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush_2_WF.prefab
-  artifactKey: Guid(c49fa2ae4f8de5747a9bcb4758ba0d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Bush_2_WF.prefab using Guid(c49fa2ae4f8de5747a9bcb4758ba0d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef354a806467b2dbd94f51a8d0c07304') in 0.005712 seconds 
-  Import took 0.007532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_Medium.prefab
-  artifactKey: Guid(05ed7d097f998224e8657cbb760d2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_Medium.prefab using Guid(05ed7d097f998224e8657cbb760d2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b3e1fbf72b455485e342603c8f1c22') in 0.004869 seconds 
-  Import took 0.006678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Low_WF.prefab
-  artifactKey: Guid(6524f3f9f0e081747ad9724e8f9c6d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_2_Low_WF.prefab using Guid(6524f3f9f0e081747ad9724e8f9c6d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a436e7181ca75ab6d44deafd8bba79d') in 0.005112 seconds 
-  Import took 0.006920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_Medium 1.prefab
-  artifactKey: Guid(8748579fca9b0ca45a6fb7bc643ecd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_Medium 1.prefab using Guid(8748579fca9b0ca45a6fb7bc643ecd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3f2fe15d25342ec3771a275a1cbe4f') in 0.005076 seconds 
-  Import took 0.006936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_High.prefab
-  artifactKey: Guid(96b8474ee840da043b0c11630a0c2f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_High.prefab using Guid(96b8474ee840da043b0c11630a0c2f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b84293101aefc527f4be6870cb874c6') in 0.005305 seconds 
-  Import took 0.007305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low_WF.prefab
-  artifactKey: Guid(1b92e3625c881894f8c833ca400aec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_Low_WF.prefab using Guid(1b92e3625c881894f8c833ca400aec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8a96a9881269127adba621f06d0a62') in 0.005420 seconds 
-  Import took 0.007301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_High 1.prefab
-  artifactKey: Guid(1bb379a2cf7f36746921342f3231e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_5_High 1.prefab using Guid(1bb379a2cf7f36746921342f3231e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ed64123653d50c2e378f862d2e2b83') in 0.004831 seconds 
-  Import took 0.006640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_Medium 1.prefab
-  artifactKey: Guid(93fb47f6721a87f40b5d4255e7afee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_3_WF_Medium 1.prefab using Guid(93fb47f6721a87f40b5d4255e7afee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0b2bebf04f500ceea8196d0861a9a3') in 0.005088 seconds 
-  Import took 0.006936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_High_WF.prefab
-  artifactKey: Guid(321a7d5010627964ba551552033615cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Trees & Bushes/Tree_1_High_WF.prefab using Guid(321a7d5010627964ba551552033615cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b408ec79ab03af173a22b583efe789f') in 0.005283 seconds 
-  Import took 0.007120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.789674 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines
-  artifactKey: Guid(ee03beba85547bc4db5065e66b1ab6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines using Guid(ee03beba85547bc4db5065e66b1ab6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f86c3d5cca487e5f513e01429e3a56') in 0.001362 seconds 
-  Import took 0.003434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048304 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_1 (1).prefab
-  artifactKey: Guid(77d0409df28aebe4f9ec6140a4bf12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_1 (1).prefab using Guid(77d0409df28aebe4f9ec6140a4bf12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b934151b64b1e834b5bd619eca006e') in 0.006156 seconds 
-  Import took 0.008093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_1.prefab
-  artifactKey: Guid(541a9680da585674d9d71af7abec177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_1.prefab using Guid(541a9680da585674d9d71af7abec177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116e82ba0dcd7600c72a605618bbcec8') in 0.005520 seconds 
-  Import took 0.007275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_2.prefab
-  artifactKey: Guid(1ac0679f245d4c24d8bf89b6abf578fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_2.prefab using Guid(1ac0679f245d4c24d8bf89b6abf578fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513f1f6a9b0841de1301865ade7d107d') in 0.006671 seconds 
-  Import took 0.008542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_4 (1).prefab
-  artifactKey: Guid(c3c19852e638dd440be82a0f634037c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_4 (1).prefab using Guid(c3c19852e638dd440be82a0f634037c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df18c81691b10bf3b3cc93778ec1f5b') in 0.006001 seconds 
-  Import took 0.007917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_4.prefab
-  artifactKey: Guid(cee98427b467a0546903168c34ee92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_4.prefab using Guid(cee98427b467a0546903168c34ee92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e648d4be8b995ba836729f38805155') in 0.005894 seconds 
-  Import took 0.007746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Harvester (2).prefab
-  artifactKey: Guid(3bab1b989c2d0bf4784b1f22cf8371c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Harvester (2).prefab using Guid(3bab1b989c2d0bf4784b1f22cf8371c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf642fb584989186f469b4dc44b7b83') in 0.167939 seconds 
-  Import took 0.169923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_3 (1).prefab
-  artifactKey: Guid(63c10b8f8c44b374b92cf49a2939f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_3 (1).prefab using Guid(63c10b8f8c44b374b92cf49a2939f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e82469d49f9cb187a4cb13e1bbacfd') in 0.006372 seconds 
-  Import took 0.008622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_1.prefab
-  artifactKey: Guid(eb084bcfa330958428e327faa78c0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_1.prefab using Guid(eb084bcfa330958428e327faa78c0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212f15dd2f08beae861f3797c9c3ad75') in 0.006278 seconds 
-  Import took 0.008407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Truck (1).prefab
-  artifactKey: Guid(b3cfdae43e66db544a68adc1f16a84b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Truck (1).prefab using Guid(b3cfdae43e66db544a68adc1f16a84b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5b9623963935e29c59972923ce166e') in 0.007591 seconds 
-  Import took 0.009590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (1).prefab
-  artifactKey: Guid(7e0b8a700797e314a8c647b8ff1e5a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (1).prefab using Guid(7e0b8a700797e314a8c647b8ff1e5a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a25df3234a7ec82ab920dbe84bd29a5') in 0.006237 seconds 
-  Import took 0.008153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Boat.prefab
-  artifactKey: Guid(51fc3255f20b0904bb69362f94e5c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Boat.prefab using Guid(51fc3255f20b0904bb69362f94e5c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad836cdd447b10993b57abc406e45404') in 0.006037 seconds 
-  Import took 0.007971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Barrow (1).prefab
-  artifactKey: Guid(a3a2c112ad2d128449f5ee9335fea123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Barrow (1).prefab using Guid(a3a2c112ad2d128449f5ee9335fea123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8194f6e46853059c04bf3acb52f661b8') in 0.005515 seconds 
-  Import took 0.007359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Truck.prefab
-  artifactKey: Guid(5c1c7f7454b28f841b4559436dd07d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Truck.prefab using Guid(5c1c7f7454b28f841b4559436dd07d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbb20efab4904c36d30451615e5e7b9') in 0.006803 seconds 
-  Import took 0.008729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Pickup.prefab
-  artifactKey: Guid(9b270a7e0d6659b4d9952f96e6bf2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Pickup.prefab using Guid(9b270a7e0d6659b4d9952f96e6bf2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f454feee774e29d35128910c40dcbf') in 0.006900 seconds 
-  Import took 0.008863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_3.prefab
-  artifactKey: Guid(043c33efbd3556d4bb970a69e412d3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_3.prefab using Guid(043c33efbd3556d4bb970a69e412d3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacd31b2352e157237551ed3a0241ac6') in 0.007333 seconds 
-  Import took 0.009245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Harvester (1).prefab
-  artifactKey: Guid(1d02ef2243695b644963a5e70375ca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Harvester (1).prefab using Guid(1d02ef2243695b644963a5e70375ca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518aaaa2ac3daae5c271adabe7c98b62') in 0.006675 seconds 
-  Import took 0.008553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_1 (2).prefab
-  artifactKey: Guid(ea3922e646c8f0d47aabc5b43627cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_1 (2).prefab using Guid(ea3922e646c8f0d47aabc5b43627cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3aba7f3344769eef6fb4c158664a31') in 0.008392 seconds 
-  Import took 0.010289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2.prefab
-  artifactKey: Guid(e8843d7375c728b42900eacac4aa608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2.prefab using Guid(e8843d7375c728b42900eacac4aa608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8420461b09ef8788e05d6e5f3a237a') in 0.005352 seconds 
-  Import took 0.007144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Bicycle (2).prefab
-  artifactKey: Guid(d3bba6b64ca16af4e921fd94896d778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Bicycle (2).prefab using Guid(d3bba6b64ca16af4e921fd94896d778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6131d509693beea0bc629984c6f6264') in 0.006064 seconds 
-  Import took 0.007961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Tractor (1).prefab
-  artifactKey: Guid(2f9c2f3d3ea6e564baae1031044adea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Tractor (1).prefab using Guid(2f9c2f3d3ea6e564baae1031044adea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfe905e3e9c48f7562847d3decd8715') in 0.006216 seconds 
-  Import took 0.008068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Bike.prefab
-  artifactKey: Guid(2e297599ca41ed24ab5548c4e01475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Bike.prefab using Guid(2e297599ca41ed24ab5548c4e01475d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b331945e14487340ec8f17965ef7e7') in 0.007386 seconds 
-  Import took 0.009262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Jeep (2).prefab
-  artifactKey: Guid(d74b01d4b861a8e4aadc80e055021176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Jeep (2).prefab using Guid(d74b01d4b861a8e4aadc80e055021176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b15b794d3ab34399a329e8a7b25e945') in 0.006357 seconds 
-  Import took 0.008211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Barrow.prefab
-  artifactKey: Guid(5f2996bfc0210384587906fc48087e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Barrow.prefab using Guid(5f2996bfc0210384587906fc48087e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c1b1ca68732c7390860f46cbce8a1e') in 0.005399 seconds 
-  Import took 0.007270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Jeep.prefab
-  artifactKey: Guid(ffc0b7d2aee2d3948ba7d2c133898169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Jeep.prefab using Guid(ffc0b7d2aee2d3948ba7d2c133898169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b4c132c742eef2fb9bcb8a1b0c2dca') in 0.006265 seconds 
-  Import took 0.008132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (2).prefab
-  artifactKey: Guid(d336c907545807047a2e283d109d12d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (2).prefab using Guid(d336c907545807047a2e283d109d12d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce830bacd627aa9839e48bedbb6af00') in 0.006201 seconds 
-  Import took 0.008018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_1 (1).prefab
-  artifactKey: Guid(b9b3085bdef77ef4f9ab434911701b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Trailer_1 (1).prefab using Guid(b9b3085bdef77ef4f9ab434911701b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92425e8e8679c9d07da916ffc426bee5') in 0.005703 seconds 
-  Import took 0.007600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_3.prefab
-  artifactKey: Guid(570145109ea2c3b4389908f87557b9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_3.prefab using Guid(570145109ea2c3b4389908f87557b9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab545bc866f9883b1f50aa8f8749d8fd') in 0.005689 seconds 
-  Import took 0.007526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Pickup (1).prefab
-  artifactKey: Guid(fa00eedf2f22345418795c8e26fd2ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Pickup (1).prefab using Guid(fa00eedf2f22345418795c8e26fd2ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d40154847e9270599faae652507285') in 0.006353 seconds 
-  Import took 0.008271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Bicycle (1).prefab
-  artifactKey: Guid(e4284d58a6b35dc44840ae7b0c87ac29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Bicycle (1).prefab using Guid(e4284d58a6b35dc44840ae7b0c87ac29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4d0e33f482fcb2c0d88ccff8cd801d') in 0.006134 seconds 
-  Import took 0.007989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Tractor.prefab
-  artifactKey: Guid(07d2ce96e48fdd242b550aa5d0f44000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Tractor.prefab using Guid(07d2ce96e48fdd242b550aa5d0f44000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf499646a5a34d1f210517d982cd6c3') in 0.006212 seconds 
-  Import took 0.008241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Jeep (1).prefab
-  artifactKey: Guid(edef8670d79d1924f82a7a98d00c8720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Jeep (1).prefab using Guid(edef8670d79d1924f82a7a98d00c8720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716da8dfe9e16b1a8f432286fac487c6') in 0.006484 seconds 
-  Import took 0.008364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Barrow (2).prefab
-  artifactKey: Guid(ddb5ef326b6e62942ac8e7ab79bd1a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Barrow (2).prefab using Guid(ddb5ef326b6e62942ac8e7ab79bd1a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f813a75ca16ebf20cf25a8205c1a12') in 0.006105 seconds 
-  Import took 0.007945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Harvester.prefab
-  artifactKey: Guid(80ef8a222ed481845968fb88a8a89d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Harvester.prefab using Guid(80ef8a222ed481845968fb88a8a89d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff72b3753a07a9a79af2237e88bfa7cb') in 0.006460 seconds 
-  Import took 0.008347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (3).prefab
-  artifactKey: Guid(221bd4640542f6f4988838a801aa5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (3).prefab using Guid(221bd4640542f6f4988838a801aa5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232265286c54857e821352f77f231451') in 0.005925 seconds 
-  Import took 0.007765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.904881 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters
-  artifactKey: Guid(73fb77ea175e9af4e983aae3e454f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters using Guid(73fb77ea175e9af4e983aae3e454f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee5352d850e3c9e16af8911ed5f4a3d') in 0.001209 seconds 
-  Import took 0.003008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.319441 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin
-  artifactKey: Guid(f1381f9daf275504f986e669cf423e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin using Guid(f1381f9daf275504f986e669cf423e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2d70b5d17d60c33f481d3b39259371') in 0.001485 seconds 
-  Import took 0.003317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043308 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Animations (1).prefab
-  artifactKey: Guid(777fcc51f1c571f4ca3f8bfb175bac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Animations (1).prefab using Guid(777fcc51f1c571f4ca3f8bfb175bac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe609dbfa7379997dccfff1bdbc6378') in 0.017051 seconds 
-  Import took 0.019175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Girl_Animations (1).prefab
-  artifactKey: Guid(005ef49bd492c2e4da8c083f789091b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Girl_Animations (1).prefab using Guid(005ef49bd492c2e4da8c083f789091b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c27d4800b84498b47690d563e80575') in 0.008242 seconds 
-  Import took 0.010396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/WomanAnimations.prefab
-  artifactKey: Guid(77d8680e5bc5e674fb946bc9c8b10d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/WomanAnimations.prefab using Guid(77d8680e5bc5e674fb946bc9c8b10d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39a9a3dfea27f05124afb1938832a0f') in 0.012289 seconds 
-  Import took 0.014341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Girl_Animations.prefab
-  artifactKey: Guid(f397f4c623b1a604e835ff1485c22aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Girl_Animations.prefab using Guid(f397f4c623b1a604e835ff1485c22aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a564b91712cc07908d8d721bd9ee654') in 0.015529 seconds 
-  Import took 0.017538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Hat_Aimations (1).prefab
-  artifactKey: Guid(b3c19fbab70acdf4d8c16c4e0a0ea5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Hat_Aimations (1).prefab using Guid(b3c19fbab70acdf4d8c16c4e0a0ea5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649fc61020cc5fbb0bd0ebd2e22aa717') in 0.008565 seconds 
-  Import took 0.010658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Woman_3_Animations.prefab
-  artifactKey: Guid(7a2e211939653ca4eab7ca9c80947171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Woman_3_Animations.prefab using Guid(7a2e211939653ca4eab7ca9c80947171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da777d5c3df74121fc08a352ab781d89') in 0.013907 seconds 
-  Import took 0.015861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/FarmerAnimations.prefab
-  artifactKey: Guid(4ff4b76616a2f7c488d6fac545a3a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/FarmerAnimations.prefab using Guid(4ff4b76616a2f7c488d6fac545a3a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0291c32dd8ebf1d088a20b61468a463e') in 0.010259 seconds 
-  Import took 0.012194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Woman_2_Animations (1).prefab
-  artifactKey: Guid(8a0e41f6f99ef504289e7e70405e9cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Woman_2_Animations (1).prefab using Guid(8a0e41f6f99ef504289e7e70405e9cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382351a50d637f8ac77d6e5952a6df57') in 0.007707 seconds 
-  Import took 0.009688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/WomanAnimations 1.prefab
-  artifactKey: Guid(83a110f52e49b3747a7d56513bf68202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/WomanAnimations 1.prefab using Guid(83a110f52e49b3747a7d56513bf68202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60090a793a006a8cd000a20e0b081de') in 0.009550 seconds 
-  Import took 0.011593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/FarmerAnimations (1).prefab
-  artifactKey: Guid(708a0fcb795b03d429f626295cdb6d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/FarmerAnimations (1).prefab using Guid(708a0fcb795b03d429f626295cdb6d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4392e9e5cb20a4ea731fd71ccfe77f99') in 0.007554 seconds 
-  Import took 0.009545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Animations.prefab
-  artifactKey: Guid(1e23ff3462a1ea74d899ac7183d3f4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Animations.prefab using Guid(1e23ff3462a1ea74d899ac7183d3f4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cdcb5a5a12fdc9d558b7f5bef27ce7') in 0.010335 seconds 
-  Import took 0.012349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Woman_2_Animations.prefab
-  artifactKey: Guid(a5426d30864b5b045afda6488d331777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Woman_2_Animations.prefab using Guid(a5426d30864b5b045afda6488d331777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae848803477a9f608794bc78b577b01') in 0.008087 seconds 
-  Import took 0.010143 seconds .
+  Time since last request: 0.000187 seconds.
+  path: Assets/Farm Life/Content/Extras/ColorGrading.asset
+  artifactKey: Guid(94608daa3479b3149b861ca3295d0af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Extras/ColorGrading.asset using Guid(94608daa3479b3149b861ca3295d0af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d19886670be0beb7da408b7bda59c3') in 0.001757 seconds 
+  Import took 0.003473 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000149 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Hat_Aimations.prefab
-  artifactKey: Guid(11a9205215fe838408c0f212d057fc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Characters/WhiteSkin/Boy_Hat_Aimations.prefab using Guid(11a9205215fe838408c0f212d057fc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b0d19d3f67be6168752b94be9db1dc') in 0.006757 seconds 
-  Import took 0.008726 seconds .
+  path: Assets/Farm Life/Content/Extras/ColorGrading 3.asset
+  artifactKey: Guid(49d1ff6d76b46e14ba8f826214803299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Extras/ColorGrading 3.asset using Guid(49d1ff6d76b46e14ba8f826214803299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5243c9ce541ce2d3f0e476776f5c54cf') in 0.002095 seconds 
+  Import took 0.003899 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.071241 seconds.
-  path: Assets/Farm Life/Content/Prefabs/Animals
-  artifactKey: Guid(1d8c09aec5c9a624485080f183c26317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farm Life/Content/Prefabs/Animals using Guid(1d8c09aec5c9a624485080f183c26317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bc42797f04337b4332b29fbb1e103') in 0.001517 seconds 
-  Import took 0.003361 seconds .
+  Time since last request: 0.000099 seconds.
+  path: Assets/Farm Life/Content/Extras/ColorGrading 2.asset
+  artifactKey: Guid(8be14e5859583934b9afa072575b1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farm Life/Content/Extras/ColorGrading 2.asset using Guid(8be14e5859583934b9afa072575b1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a49c48daf1fb9260e276c425293bbdc') in 0.001869 seconds 
+  Import took 0.003668 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 15.079983 seconds.
+  path: Assets/CivilCharactersPack/Models/CivilFemale
+  artifactKey: Guid(699d18192b39f5f45838030081a2ebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CivilCharactersPack/Models/CivilFemale using Guid(699d18192b39f5f45838030081a2ebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e590be3d4195032f1520a72bfb7b8e71') in 0.001451 seconds 
+  Import took 0.003713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.7 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 2.085700 ms (FindLiveObjects: 0.115400 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.918800 ms  DeleteObjects: 0.011200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
