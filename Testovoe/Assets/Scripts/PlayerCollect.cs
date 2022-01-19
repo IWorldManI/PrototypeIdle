@@ -90,6 +90,7 @@ public class PlayerCollect : MonoBehaviour
         {
             playerIsChoping = true;
             anim.SetBool("chop", true);
+            anim.SetLayerWeight(1, 1f);
             anim.SetBool("walk", false);
             TreeList[_closestTreeIndex].GetComponent<Collectable>().TreeChoping();
             TreeList.RemoveAt(_closestTreeIndex);

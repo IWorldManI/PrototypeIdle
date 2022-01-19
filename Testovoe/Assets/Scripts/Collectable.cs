@@ -37,6 +37,7 @@ public class Collectable : MonoBehaviour
             Destroy(this.gameObject);
             FindObjectOfType<PlayerCollect>().playerIsChoping = false;
             FindObjectOfType<PlayerCollect>().anim.SetBool("chop", false);
+            FindObjectOfType<PlayerCollect>().anim.SetLayerWeight(1, 0f);
             FindObjectOfType<PlayerBackpack>()._woodCount += 3;
             FindObjectOfType<PlayerBackpack>().EnableVisualWood();
         }
